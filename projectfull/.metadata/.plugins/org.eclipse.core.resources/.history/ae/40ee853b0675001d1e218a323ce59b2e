@@ -1,0 +1,10 @@
+package com.example.student.repository;
+
+import com.example.student.model.Students;
+
+public interface IStudentRepository {
+
+	public Students insertStudent(Students students);
+	
+
+}
